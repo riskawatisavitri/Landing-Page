@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>Shoe shop</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/pricing/">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+	<header>
+	<!--Nav-->
+	    <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 bg-primary">
+	      <a href="/" class="d-flex align-items-center text-dark text-white text-decoration-none">
+	        <span class="fs-4">Shoe Shop</span>
+	      </a>
+
+	      <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+	        <a class="me-3 py-2 text-dark text-white text-decoration-none text-home" href="#">Home</a>
+	        <a class="me-3 py-2 text-dark text-white text-decoration-none text-info" href="#">Info</a>
+	        <a class="me-3 py-2 text-dark text-white text-decoration-none text-cont" href="#">Contact</a>
+	        <button class="btn btn-light text-primary btn-nav txt-btn-nav" type="submit">Buy Now</button>
+	      </nav>
+	    </div>
+	<!-- End Nav -->
+
+	<!-- Hero -->
+	<div class="hero">
+	    <div class="row featurette">
+	    	<div class="col-md-7 order-md-2">
+	        	<h2 class="text-h2-hero featurette-heading">Be Different,<br>Be Confidence</h2>
+	        	<p class="text-p-hero lead">prepare your best outfit with our best shoes,<br> choose our unique product or request<br>everything you need to be different</p>
+		        <button class="btn btn-primary text-white btn-hero" type="submit">Buy Now</button>
+	    	</div>
+	    	<div class="col-md-5 order-md-1">
+	        	<img class="img-hero" src="assets/hero_image.png">
+	      	</div>  	
+	    </div>
+	</div>
+  	</header>
+  	<!--End Hero-->
+
+  	<!--Product-->
+  	<main>
+  		<div class="product">
+  			<h2 class="text-h2 text-h2-product text-center text-white">Our Products</h2>
+  			<p class="text-p text-p-product text-center text-white">our best product always ready for you</p>
+			<div class="row row-cols-1 row-cols-md-3 g-4 text-center">
+  				<div class="col">
+  					<div class="card-one">
+	  					<div class="card h-100">
+	  						<img src="assets/product1.png" class="card-img-top" alt="...">
+	  						<div class="card-body">
+						        <h5 class="card-title">Red Fire</h5>
+						  		<p class="card-text">best to suit your spirit</p>
+						      	<button class="btn btn-card btn-primary text-white" type="submit"><span class="text-btn-card"></span>Add To Chart</button>
+						    </div>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card-two">
+						<div class="card h-100">
+	      					<img src="assets/product2.png" class="card-img-top" alt="...">
+	      					<div class="card-body">
+						        <h5 class="card-title text-center">Yellow Flash</h5>
+						      	<p class="card-text text-center">best for young personality</p>
+						      	<button class="btn btn-card btn-primary text-white" type="submit"><span class="text-btn-card"></span>Add To Chart</button>
+	      					</div>
+	    				</div>
+	    			</div>
+  				</div>
+  				<div class="col">
+  					<div class="card-three">
+	   					<div class="card h-100">
+						    <img src="assets/product3.png" class="card-img-top" alt="...">
+						    <div class="card-body">
+						        <h5 class="card-title text-center">Elegant Black</h5>
+								<p class="card-text text-center">best for your elegant outfit</p>
+								<button class="btn btn-card btn-primary text-white" type="submit"><span class="text-btn-card"></span>Add To Chart</button>
+	     				 	</div>
+	    				</div>
+	    			</div>
+  				</div>
+			</div>
+		</div>
+
+  	<!-- End Product-->
+
+  	<!--History-->
+  	<!-- Carousel -->
+ 	<div class="history">
+  		<h2 class="text-h2 text-h2-history text-center text-dark">History</h2>
+  		<p class="text-p text-p-history text-center text-dark">where we start from</p>
+		<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+	 		<!-- Indicators/dots -->
+	  		<div class="carousel-indicators">
+			    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+			    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+			    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+		  	</div>
+	  
+	  		<!-- The slideshow/carousel -->
+	  		<div class="carousel-inner">
+	   			<div class="carousel-item active">
+	      			<img src="assets/carousel1.png"  class="d-block" style="width:100%">
+	    		</div>
+	    		<div class="carousel-item">
+	      			<img src="assets/carousel2.png"  class="d-block" style="width:100%">
+	   			</div>
+	    		<div class="carousel-item">
+	      			<img src="assets/carousel3.png"  class="d-block" style="width:100%">
+	    		</div>
+	  		</div>
+	  
+	  		<!-- Left and right controls/icons -->
+	  		<button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+	    		<span class="carousel-control-prev-icon"></span>
+	 		</button>
+	  		<button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+	    		<span class="carousel-control-next-icon"></span>
+	  		</button>
+		</div>
+	</div>
+	<!--History-->
+
+	<!--Testimonial-->
+	<div class="testi">
+	  			<h2 class="text-h2 text-h2-testi text-center text-white">Testimonial</h2>
+	  			<p class="text-p text-p-testi text-center text-white">what our client say</p>
+
+	  			<div class="container testimonials" >
+	    			<div class="row">
+	        			<div class="col-md-4 testimonial">
+	            			<div class="row">
+		                		<div class="avatar col-md-5">
+		                    		<a href="#">
+		                       			<img class="img-circle" src="assets/client1.png">
+		 			               	</a>
+		               			</div>
+
+		                		<div class="testimonial-main col-md-7">
+		                   			<h4 class="media-heading">Adam Smith</h4>
+		                   			<p class="testimony-body">product from this store are my best pick so far</p>
+		                		</div>
+		               		</div>
+	        			</div>
+	        		
+						<div class="col-md-4 testimonial">
+	            			<div class="row">
+	                			<div class="avatar col-md-5">
+					                <a href="#">
+					                   <img class="img-circle" src="assets/client2.png">
+					                </a>
+	                			</div>
+
+	                			<div class="testimonial-main col-md-7">
+						            <h4 class="media-heading">Lilia</h4>
+						            <p class="testimony-body">i love every kinds of shoes in this store</p>
+	                			</div>
+	            			</div>
+	            		</div>
+	        			<div class="col-md-4 testimonial">
+	            			<div class="row">
+	                			<div class="avatar col-md-5">
+					            	<a href="#">
+					                    <img class="img-circle" src="assets/client3.png">
+					                </a>
+	                				</div>
+	        
+	                				<div class="testimonial-main col-md-7">
+						                <h4 class="media-heading">Nikita Lubis</h4>
+						                <p class="testimony-body">thank youuu.. will be back again soon</p>
+	                				</div>
+	            				</div>
+	        				</div>
+	        			</div>
+	        		</div>
+	    </div>
+
+        <!--End Testimonial-->
+
+        <!--Maps-->
+        <div class="Maps bg-light">
+	  		<h2 class="text-h2 text-h2-maps text-center text-dark">Contact us</h2>
+	  		<p class="text-p text-p-maps text-center text-dark">need help? kindly reach us</p>
+	  			<div class="row justify-content-evenly">
+					<div class="col-4">
+					    <div id="map-container-google-11" class="z-depth-1-half map-container-6">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3408.561613715984!2d104.73974131428427!3d-2.9760580406416763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e3b75dd7b663d3f%3A0xa673f79fd841a344!2sPalembang%20Square!5e1!3m2!1sid!2sid!4v1637043554976!5m2!1sid!2sid" width="564" height="554" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      					</div>
+					</div>
+					<div class="col-4">
+					    <div class="md-form">
+				            <i class="fas fa-user prefix grey-text"></i>
+				            <label for="form-name" class="form-name">Full name</label>
+				            <input type="text" id="form-name" class="form-control">
+          				</div>
+
+         				<div class="md-form">
+				            <i class="fas fa-envelope prefix grey-text"></i>
+				            <label for="form-email" class="form-email">Email Address</label>
+				            <input type="text" id="form-email" class="form-control">
+						</div>
+
+				        <div class="md-form">
+				            <i class="fas fa-pencil-alt prefix grey-text"></i>
+				            <label for="form-text"class="form-massage">Massage</label>
+				            <textarea id="form-text" class="form-control md-textarea" rows="3"></textarea>
+       					</div>
+
+          				<div class="text-center mt-4">
+            				<button class="btn btn-primary btn-maps"><span class="text-btn-maps">Submit</span> </button>
+          				</div>
+          			</div>
+          		</div>
+        </div>
+	<!-- End Maps-->
+
+
+  	</main>
+  	<footer>
+		<div class="text-center p-4 bg-primary text-white">
+			<span class="text-footer">© 2021 Copyright. Riskawati Savitri</span> 
+	  	</div>
+	</footer>
+<script  type="text/javascript" href="bootstrap/js/bootstrap.min.js"></script>
+<script  type="text/javascript" href="script.js"></script>
+  	
+</body>
+</html>
